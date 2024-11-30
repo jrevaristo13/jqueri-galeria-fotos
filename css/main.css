@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+   
+   
+    
+    background-color: rgb(199, 197, 194);
+}
+header{
+    color: aliceblue;
+    background-color: #5F27CD;
+    padding:16px 0 ;
+    display: flex;
+    border-bottom: 18px solid #341f97;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+header h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0.1em 0.2em rgb(15, 15, 16);
+}
+header button {
+color: blue;
+border-radius: 5px;
+border: none;
+transform: translateX(50px);
+padding: 10px;
+font-weight: bold;
+text-transform: uppercase;
+box-shadow: 5px 5px 0 0 rgb(95, 184, 236), 10px 10px 0 0 rgba(26, 166, 236, 0.6), 15px 15px 0 0 rgba(65,117,5,0.4), 20px 20px 0 0 rgba(65,117,5,0.2), 25px 25px 0 0 rgba(65,117,5,0.1);
+}
+form{
+    
+    background-color: #c8d6e5;
+    padding:26px 0 ;
+    display: none;
+
+}
+form h2{
+    font-size: 18px;
+    font-weight: bold;
+   transform: translateX(450px);
+   position: absolute;
+   text-transform: uppercase;
+   margin-top: -10px;
+}
+ form input,
+button{
+    transform: translateX(450px);
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+#b1{
+    background-color: greenyellow;
+    color: rgb(6, 8, 10);
+    
+    border-radius: 5px;
+    padding: 5px;
+   
+font-weight: bold;
+}
+#b2{
+    background-color: rgb(248, 38, 10);
+    color: rgb(6, 8, 10);
+    
+    border-radius: 5px;
+    padding: 5px;
+   
+    
+font-weight: bold;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li{
+ max-width: 25%;
+justify-content: space-between;
+padding: 16px;
+list-style: none;
+position: relative;
+max-height: 280px;
+overflow: hidden;
+
+}
+
+ul li img{
+  width: 100%;
+
+  
+}
+
+
+.overlay_imagem_link{
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 274px;
+    opacity: 0;
+    transition: all ease .7s;
+    transform: translatex(16px);
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.overlay_imagem_link a{
+    color: hsl(0, 33%, 98%);
+    text-decoration: none;
+   
+   
+    
+   
+}
+ul li:hover .overlay_imagem_link{
+    opacity: 0.6;
+}
